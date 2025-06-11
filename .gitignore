@@ -1,0 +1,87 @@
+# Standard Python ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sitemap.xml
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+
+# Docker
+docker-compose.override.yml
+*.env
+!.env.example
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.pid
+
+# Project specific
+/commit_stats_*.png
+/output/
+/data/
+!src/data/
+
+# Secrets
+secrets.ini
+config.ini
+credentials.json
+*.key
+*.pem
+*.cert
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Debug
+debug.log

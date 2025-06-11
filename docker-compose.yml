@@ -1,0 +1,8 @@
+services:
+  gh-client:
+    build: .
+    volumes:
+      - ./github_cli:/app/github_cli
+      - ./output:/app/output
+    environment:
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
