@@ -1,6 +1,6 @@
 1. Клонируйте репозиторий:
-  git clone https://github.com/yourusername/yourproject.git
-  cd yourproject
+  git clone https://github.com/9kWarrior/g_cli.git
+  cd g_cli
 2. Создайте файл .env с вашим GitHub токеном:
   GITHUB_TOKEN=your_personal_access_token_here
 3. Соберите и запустите контейнер
